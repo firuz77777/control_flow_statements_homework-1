@@ -15,4 +15,4 @@ def main(a,b,c):
         m+=1
     if c < 0:
         m+=1
-    return 
+    return m
