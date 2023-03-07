@@ -13,5 +13,5 @@ def main(a):
         a-=2
     if a==0:
         a=10
-    return 
+    return a
 print(main(0))
