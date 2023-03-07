@@ -11,4 +11,15 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    q = a // 10
+
+    if q < 10 and a % 2 == 0:
+        print("two-digit even number")
+    if q < 10 and a % 2 == 1:
+        print("two-digit odd number")
+    if q >= 10 and a % 2 == 1:
+        print("three-digit odd number")
+    if q >= 10 and a % 2 == 0:
+        print("three-digit even number")
+    return 
+print(main(96))
