@@ -15,5 +15,5 @@ def main(a,b,c):
         m+=1
     if c > 0:
         m+=1
-    return a
+    return m
 print(main(2,-2,1))
