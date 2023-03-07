@@ -22,6 +22,6 @@ def main(a):
     if a > 0 and m == 0:
         print("positive even number")
     if a == 0:
-        a = "the number is zero"
+        print("the number is zero")
     return 
 print(main(-5))
