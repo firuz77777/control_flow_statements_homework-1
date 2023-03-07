@@ -8,5 +8,5 @@ def main(a):
     """
     if a > 0:
         a+=1
-    return 
+    return a
 print(main(2))
